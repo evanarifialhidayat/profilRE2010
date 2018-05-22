@@ -50,21 +50,13 @@
   </header><!-- #header -->
 
   <section id="intro">
-
     <div class="intro-text">
-        <h2 style="color: black;">Welcome to Big Famely RE 2010</h2>
-      <p style="color: #ff0000;" >Makan Ga Makan Asal Kumpul. Buka Bersama Hari 2 Juni 2018 Di Rumah Maulana</p>
-     
+        <h2 style="color: black;">Big Family RE 2010</h2>
+      <p style="color: black;" >Makan Ga Makan Asal Kumpul</p>     
     </div>
-
-    <div class="product-screens">
-
-<!--      <div class="product-screen-1 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.6s">
-          <img src="<c:url value="/resources/img/product-screen-1.png"/>" alt="">
-      </div>-->
-
+    <div class="intro-text">
+       <h2 style="color: red; margin-top: 800px; font: bold;">Buka Bersama RE 2 Juli 2018</h2>    
     </div>
-
   </section><!-- #intro -->
 
   <main id="main">
@@ -219,7 +211,7 @@
           </div>
              <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u19.jpg"/>" class="gallery-popup">
+                <a href="<c:url value="/resources/img/gallery/u1.jpg"/>" class="gallery-popup">
                     <img src="<c:url value="/resources/img/gallery/u1.jpg"/>" alt="">
               </a>
             </div>

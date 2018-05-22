@@ -50,21 +50,13 @@
   </header><!-- #header -->
 
   <section id="intro">
-
     <div class="intro-text">
-        <h2 style="color: black;">Welcome to Big Famely RE 2010</h2>
-      <p style="color: #ff0000;" >Makan Ga Makan Asal Kumpul. Buka Bersama Hari 2 Juni 2018 Di Rumah Maulana</p>
-     
+        <h2 style="color: #fa0808;">Sedulur Selawase 2007</h2>
+      <p style="color: #fa0808;" >Makan Ga Makan Asal Kumpul</p>     
     </div>
-
-    <div class="product-screens">
-
-<!--      <div class="product-screen-1 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.6s">
-          <img src="<c:url value="/resources/img/product-screen-1.png"/>" alt="">
-      </div>-->
-
-    </div>
-
+<!--    <div class="intro-text">
+       <h2 style="color: red; margin-top: 800px; font: bold;">Buka Bersama RE 2 Juli 2018</h2>    
+    </div>-->
   </section><!-- #intro -->
 
   <main id="main">
@@ -74,14 +66,14 @@
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 18,
-          center: {lat: -6.302731, lng: 106.850624}
+          center: {lat: -7.099863, lng: 109.319324}
         });
 
         marker = new google.maps.Marker({
           map: map,
           draggable: true,
           animation: google.maps.Animation.DROP,
-          position: {lat: -6.302731, lng: 106.850624}
+          position: {lat: -7.099863, lng: 109.319324}
         });
         marker.setAnimation(google.maps.Animation.BOUNCE);
       }
@@ -98,246 +90,27 @@
         <div class="row no-gutters">
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u1.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u1.jpg"/>" alt="">
+                <a href="<c:url value="/resources/img/gallery/p2.jpeg"/>" class="gallery-popup">
+                    <img src="<c:url value="/resources/img/gallery/p2.jpeg"/>" alt="">
               </a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u2.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u2.jpg"/>" alt="">
+                <a href="<c:url value="/resources/img/gallery/p3.jpg"/>" class="gallery-popup">
+                    <img src="<c:url value="/resources/img/gallery/p3.jpeg"/>" alt="">
               </a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u3.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u3.jpg"/>" alt="">
+                <a href="<c:url value="/resources/img/gallery/p1.jpg"/>" class="gallery-popup">
+                    <img src="<c:url value="/resources/img/gallery/p1.jpeg"/>" alt="">
               </a>
             </div>
           </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u3.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u4.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u4.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u4.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u5.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u5.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-<!--             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u6.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u6.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>-->
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u7.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u7.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u8.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u8.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u9.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u9.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u10.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u10.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u11.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u11.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u12.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u12.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-     
-<!--             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u15.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u15.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>-->
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u16.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u16.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u17.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u17.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u18.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u18.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u19.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u1.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u20.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u20.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u21.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u21.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u22.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u22.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u23.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u23.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u24.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u24.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u25.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u25.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u26.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u26.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u27.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u27.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u28.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u28.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u29.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u29.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u30.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u30.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u31.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u31.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u32.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u32.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u33.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u33.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-              
-              
-        <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u34.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u34.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/u35.jpg"/>" class="gallery-popup">
-                    <img src="<c:url value="/resources/img/gallery/u35.jpg"/>" alt="">
-              </a>
-            </div>
-          </div>
+             
              
               
         </div>
@@ -350,11 +123,11 @@
 
           <div class="col-lg-4 col-md-4">
             <div class="contact-about">
-              <h3>Maulana</h3>
-              <p>Info Lebih Lanjut Bisa Hubungi Bapak Maulana.</p>
+              <h3>Ali Jidat</h3>
+              <p>Info Lebih Lanjut Bisa Hubungi Bapak Jidat.</p>
               <div class="social-links">
                 <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                <a href="https://www.facebook.com/moe.positif" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
                 <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
                 <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
                 <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
@@ -376,7 +149,7 @@
 
               <div>
                 <i class="ion-ios-telephone-outline"></i>
-                <p>082112790782</p>
+                <p>087883755855</p>
               </div>
 
             </div>
@@ -421,10 +194,10 @@
       <div class="row">
         <div class="col-lg-6 text-lg-left text-center">
           <div class="copyright">
-            &copy; Copyright <strong>Unindra RE 2010</strong>. All Rights Reserved
+            &copy; Copyright <strong>Alamater Sma N 1 2007</strong>. All Rights Reserved
           </div>
           <div class="credits">
-                 Designed by <a href="https://www.facebook.com/groups/156684911044503/?ref=bookmarks">RE 2010</a>
+                 Designed by <a href="#">Sma N 1 2007</a>
           </div>
         </div>
         <div class="col-lg-6">
