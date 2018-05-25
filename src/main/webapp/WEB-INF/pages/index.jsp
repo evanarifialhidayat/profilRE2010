@@ -98,14 +98,14 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/p3.jpg"/>" class="gallery-popup">
+                <a href="<c:url value="/resources/img/gallery/p3.jpeg"/>" class="gallery-popup">
                     <img src="<c:url value="/resources/img/gallery/p3.jpeg"/>" alt="">
               </a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
-                <a href="<c:url value="/resources/img/gallery/p1.jpg"/>" class="gallery-popup">
+                <a href="<c:url value="/resources/img/gallery/p1.jpeg"/>" class="gallery-popup">
                     <img src="<c:url value="/resources/img/gallery/p1.jpeg"/>" alt="">
               </a>
             </div>
